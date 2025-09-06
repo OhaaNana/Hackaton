@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!--Alla inställninga för sidan i head-->
+    <meta charset="UTF-8" />
+    <!--Kan läsa av svenska tecken spom å,ä,ö-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Anpassar bredden på sidan-->
     <title>Min första webbsida</title>
-</head>
-<body>
-    <h1>Chas Academy!</h1>
-    <p>Min första webbsida är nu online.</p>
-</body>
+    <!--Titeln för fliken-->
+  </head>
+
+  <body>
+    <!--Allt innehåll i en hemsida-->
+
+    <header>
+      <h1>Välkommen till min sida</h1>
+    </header>
+
+    <menu>
+      <a href="#Home">Hem</a>
+      <a href="#About">Om mig</a>
+      <a href="#Contact">Kontakt</a>
+    </menu>
+
+    <main>
+      <article>
+        <h3>Min första dag på skolan</h3>
+        <p>det gick bra</p>
+        <h3>Jag lärde mig följade saker</h3>
+
+        <ul>
+          <li>Datorer</li>
+          <li>Nätverk</li>
+          <li>HTTP</li>
+        </ul>
+      </article>
+
+      <iframe>
+        width="560" height="315"
+        src="https://www.youtube.com/embed/8aAY-2q6Cs0?si=qYKD_ox0qjKfNlXF"
+        title="YouTube video player" frameborder="0" allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope;
+        picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+      </iframe>
+
+      <video
+        src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4"
+        controls
+        loop
+        height="300px"
+      ></video>
+
+      <audio
+        controls
+        src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+      ></audio>
+
+      <section>
+        <h3>Kontakta mig</h3>
+
+        <form>
+          <label for="fullname">Namn:</label>
+          <input id="fullname" type="text" />
+
+          <label for="Phone">Telefon nr:</label>
+          <input id="Phone" type="text" />
+
+          <label for="Email">Epost:</label>
+          <input id="Email" type="text" />
+
+          <input type="submit" value="Skicka" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Alla rättigheter förbehållna mig.</p>
+      <img
+        src="https://www.datocms-assets.com/91872/1675258709-footer_logo.svg"
+        alt="Chas Academy Logotyp"
+        height="150px"
+      />
+    </footer>
+  </body>
 </html>
