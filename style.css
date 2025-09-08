@@ -2,6 +2,14 @@ body {
   background-color: rgb(165, 206, 219);
 }
 
-head {
-  background-color: rgb(15, 19, 21);
+header {
+  background-color: rgb(113, 162, 186);
+  height: 150px;
+  text-align: center;
+}
+
+footer {
+    background-color: rgb(113, 162, 186);
+    height: 150px;
+    text-align: center;
 }
