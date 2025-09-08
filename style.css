@@ -8,8 +8,15 @@ header {
   text-align: center;
 }
 
+menu {
+    background-color: rgb(113, 162, 186);
+    height: 50px;
+    text-align: right;
+}
+
 footer {
     background-color: rgb(113, 162, 186);
     height: 150px;
     text-align: center;
 }
+
