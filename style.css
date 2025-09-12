@@ -1,36 +1,53 @@
 body {
-    background-color: rgb(165, 206, 219);
+    background-color: rgb(207, 199, 199);
     font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #de98d0; 
+    background-color: rgb(187, 179, 179); 
     color: white; 
-    padding: 20px;  
+    padding: 20px; 
+    text-align: center; 
+    height: 150px;
 }
 
-h1 {
-    flex-end 
-    margin: 0; 
+.aboutme {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        
+
 }
 
-header {
-  background-color: rgba(113, 162, 186);
-  height: 150px;
-  text-align: center;
+#min-bild{ 
+    position: fixed;
+    top: 250px;
+    right: 20px;
+    height: 200px;
+    border-radius: 100px;
+    
+
 }
 
-menu {
-    background-color: rgba(64, 170, 202, 0.0);
-    height: 50px;
-    text-align: right;
+h3 {
+    font-size: 24px; 
+    margin: 20px; 
+    margin-right: 240px;
+    text-align: flex-start; 
 }
 
+p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 20px; 
+    margin-right: 240px;
+    text-align: justify;
+}
 
 footer {
-    background-color: rgb(113, 162, 186);
+    background-color: rgb(187, 179, 179);
     height: 200px;
     text-align: center; 
     position: absolute;

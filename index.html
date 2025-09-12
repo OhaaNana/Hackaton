@@ -3,10 +3,10 @@
   <head>
     <!--Alla inställninga för sidan i head-->
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"> <!--Koppla css filen till html filen-->
     <!--Kan läsa av svenska tecken spom å,ä,ö-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Koppla css filen till html filen-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Anpassar bredden på sidan-->
     <title>Min första webbsida</title>
     <!--Titeln för fliken-->
   </head>
@@ -15,52 +15,54 @@
     <!--Allt innehåll i en hemsida-->
 
     <header>
-
       <h1>Min första men inte sista hemsida!</h1>
       <h2>Om mig</h2>
-
     </header>
 
     <main>
       <article>
-        <h3>Min första dag på skolan</h3>
-        <p>det gick bra</p>
-        <h3>Jag lärde mig följade saker</h3>
+        <h3>Lite om mig</h3>
+        <p>
+          Mitt namn är Nana och jag är i mitt 27e levnadsår. Min etniska
+          bakgrund är Armenie, men jag flyttade till Sverige när jag var 2 år
+          gammal.
+        </p>
 
-        <ul>
-          <li>Datorer</li>
-          <li>Nätverk</li>
-          <li>HTTP</li>
-        </ul>
+        <p>
+          Innan jag började plugga till fullstack utvecklare jobbade jag som
+          Teamleader på Essilor Luxottica AB. Där ansvarade jag för distubutions
+          avdelningen.
+        </p>
+
+        <p>
+          Det var kul så länge det varade men nu är jag taggad att lära mig nya
+          saker och utvecklas som person.
+        </p>
       </article>
 
-      <audio id="ljud" autoplay controls loop
+      <article>
+        
+      </article>
+
+      <section class="aboutme">
+        <img id="min-bild" src="Nanna.png" alt="Bild på författaren" />
+      </section>
+
+      <audio
+        id="ljud"
+        autoplay
+        controls
+        loop
         src="https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
       ></audio>
-
-      <section>
-        <h3>Kontakta mig</h3>
-
-        <form>
-          <label for="fullname">Namn:</label>
-          <input id="fullname" type="text" />
-
-          <label for="Phone">Telefon nr:</label>
-          <input id="Phone" type="text" />
-
-          <label for="Email">Epost:</label>
-          <input id="Email" type="text" />
-
-          <input type="submit" value="Skicka" />
-        </form>
-      </section>
     </main>
 
     <footer>
       <p>Alla rättigheter förbehållna mig.</p>
       <img
         src="https://www.datocms-assets.com/91872/1675258709-footer_logo.svg"
-        alt="Chas Academy Logotyp"/>
+        alt="Chas Academy Logotyp"
+      />
     </footer>
   </body>
 </html>
